@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #222F3D;
+    margin: 0;
+}
+
+.form-container {
+    padding-top: 50px;
+    height: 500px;
+    width: 370px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 280px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    display: block;
+    margin: 8px 0 20px;
+    color: #654321;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#back_button {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 100px;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FF5C5C;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#sign_up_button {
+    width: 142px;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    background-color: #DE3163;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button {
+    width: 142px;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    background-color: #6b431f;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #543317;
+}
+
+
+#forgot_password_form {
+    padding-top: 50px;
+}
+
+#forgot_password_form input {
+    width: 280px;
+}
+
+#forgot_password_button {
+    width: 142px;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    background-color: #6b431f;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#forgot_password_button:hover {
+    background-color: #543317;
+}
+
+#back_signin {
+    display: block;
+    margin: 15px auto;
+    color: #654321;
+    font-size: 14px;
+    text-decoration: none;
+}

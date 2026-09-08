@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    text-decoration: none;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 110px;
+}
+
+#nav-signin {
+    position: relative;        
+
+}
+
+.login-link {
+    position: absolute;        
+    top: 0;                   
+    left: 0;                   
+    width: 100%;             
+    height: 100%;             
+    display: block;            
+    z-index: 1;              
+    text-decoration: none;     
+    cursor: pointer;           
+}
+
+
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* box 2 */
+
+
+/* Navigation search bar */
+
+#nav-search {
+    display: flex;
+    /* background-color: red; */
+    height: 40px;
+    width: 590px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+#search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+#serach-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+#serach-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 175, 49);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: #0f1111;
+    font-size: 1.2rem;
+}
+
+#nav-search:hover {
+    border: 1px solid orange;
+}
+
+/* for sign in box */
+
+#sign_in_button {
+    color: lemonchiffon;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+/* cart icon part */
+
+#cart-icon {
+    font-size: 30px;
+    /* padding-top: 5px; */
+    /* margin-top: 15px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#cart-text {
+    font-size: 0.85rem;
+    font-weight: 700px;
+    margin-left: 2px;
+    margin-top: 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Panel bar */
+
+#panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    /* align-content: ; */
+    justify-content: space-evenly;
+    /* justify-content: start; */
+}
+ 
+/* last p meeans all the para inside the panel-op div this is just a shortcut version */
+#panel-op p {
+    display: inline;
+    margin-left: 15px;
+}
+
+#panel-op {
+    width: 95%;
+    font-size: 0.85rem;
+}
+
+#menu-icon{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.85 rem;
+}
+
+#all-text {
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+
+/* For fotter */
+
+footer {
+    margin-top: 15px;
+}
+
+#foot-panel-back {
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+#btt-text {
+    color: white;
+}
+
+#foot-panel-2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    background-color: #e2e7e6;
+}
+
+.product {
+    width: 250px;
+    min-height: 400px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product p {
+    margin-top: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    color: rgb(143, 203, 22);
+}
+
+.buy_btn {
+    background-color: #222F3D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
