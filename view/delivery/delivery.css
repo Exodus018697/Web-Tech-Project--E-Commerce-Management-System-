@@ -137,5 +137,5 @@ th {
 }
 
 .failed-button {
-    background: #c62828 !important;
+    background: red;
 }

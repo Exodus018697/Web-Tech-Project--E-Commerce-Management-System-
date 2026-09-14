@@ -24,6 +24,15 @@ function makeOrder($user_id, $product_id, $quantity, $payment_method)
 
     // Get order id
     $order_id = mysqli_insert_id($conn);
+    $staff = mysqli_query($conn, "SELECT id FROM users WHERE role='delivery_staff' LIMIT 1");
+
+if ($staff && mysqli_num_rows($staff) > 0) {
+    $staff_row = mysqli_fetch_assoc($staff);
+    $staff_id = $staff_row['id'];
+
+    mysqli_query($conn, "INSERT INTO delivery (order_id, staff_id, status)
+                         VALUES ('$order_id', '$staff_id', 'Pending')");
+}
 
     // Add payment
     $sql = "INSERT INTO payment (order_id, user_id, product_id, price, payment_method) VALUES ('$order_id', '$user_id', '$product_id', '$price', '$payment_method')";
