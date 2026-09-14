@@ -38,6 +38,16 @@
         <p><b>Amount:</b> ৳ <?php echo $row['total_amount']; ?></p>
 
         <p><b>Current Status:</b> <?php echo $row['status']; ?></p>
+        <p><b>Delivery Date:</b>
+<?php
+if ($row['delivery_date']) {
+    echo $row['delivery_date'];
+}
+else {
+    echo "Not Delivered Yet";
+}
+?>
+</p>
 
         <div class="status-buttons">
 
